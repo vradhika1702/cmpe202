@@ -1,21 +1,17 @@
-public class SoldOutState implements State {
-    GumballMachine gumballMachine;
-    GumballMachine2 gumballMachine2;
- 
-    public SoldOutState(GumballMachine gumballMachine) {
-        this.gumballMachine = gumballMachine;
-    }
+public class SoldOutState3 implements State3 {
 
-    public SoldOutState(GumballMachine2 gumballMachine2) {
-        this.gumballMachine2 = gumballMachine2;
+    GumballMachine3 gumballMachine3;
+ 
+    public SoldOutState3(GumballMachine3 gumballMachine3) {
+        this.gumballMachine3 = gumballMachine3;
     }
  
-    public void insertQuarter() {
-        System.out.println("You can't insert a quarter, the machine is sold out");
+    public void insertCoin() {
+        System.out.println("You can't insert a coin, the machine is sold out");
     }
  
-    public void ejectQuarter() {
-        System.out.println("You can't eject, you haven't inserted a quarter yet");
+    public void ejectCoin() {
+        System.out.println("You can't eject, you haven't inserted a coin yet");
     }
  
     public void turnCrank() {

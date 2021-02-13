@@ -1,5 +1,5 @@
-public  class GumballMachine  {
- 
+public  class GumballMachine2  
+{
     State soldOutState;
     State noQuarterState;
     State hasQuarterState;
@@ -8,7 +8,7 @@ public  class GumballMachine  {
     State state = soldOutState;
     int count = 0;
  
-    public GumballMachine(int numberGumballs) {
+    public GumballMachine2(int numberGumballs) {
         soldOutState = new SoldOutState(this);
         noQuarterState = new NoQuarterState(this);
         hasQuarterState = new HasQuarterState(this);
@@ -31,6 +31,14 @@ public  class GumballMachine  {
     public void turnCrank() {
         state.turnCrank();
         state.dispense();
+    }
+
+    public void waitForCoin() {
+        state.waitForCoin();
+    }
+
+    public void checkCoin() {
+        state.checkCoin();
     }
 
     void setState(State state) {
@@ -86,3 +94,4 @@ public  class GumballMachine  {
         return result.toString();
     }
 }
+
