@@ -7,6 +7,5 @@ public interface State {
     public void turnCrank();
     public void waitForCoin();
     public void checkCoin();
-    public void returnChange();
     public void dispense();
 }
