@@ -2,8 +2,7 @@
 
 #labs/Lab1
 
-<html>
-<img src="D:\202cmpe\cmpe202\labs\lab1\gumball-machines.png"></img></html>
+<img src="D:\202cmpe\cmpe202\labs\lab1\gumball-machines.png"></img>
 
 #gumball-java-typical
 
