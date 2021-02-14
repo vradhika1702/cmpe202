@@ -2,8 +2,6 @@
 
 #labs/Lab1
 
-<img src="cmpe202\labs\lab1\gumball-machines.png"></img>
-
 #gumball-java-typical
 
 The following approach was taken to solve the Gumball Machine problem.
