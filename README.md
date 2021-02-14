@@ -1,8 +1,8 @@
 # CMPE 202 Course Repository
 
 #labs/Lab1
-
-<img src="D:\202cmpe\cmpe202\labs\lab1\gumball-machines.png"/>
+<html>
+<img src="D:\202cmpe\cmpe202\labs\lab1\gumball-machines.png"></img></html>
 
 
 #gumball-java-typical
